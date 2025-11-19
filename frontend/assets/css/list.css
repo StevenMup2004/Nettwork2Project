@@ -1,0 +1,14 @@
+#ticket_box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+#check_button {
+  background-color: #223a60;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}

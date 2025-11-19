@@ -1,0 +1,57 @@
+/* Toàn bộ nền của trang */
+* {
+    background-color: #050A24;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    min-width: 1686px;
+    padding: 14px 0 0 0;
+    border-radius: 14px 0 0 0;
+    background: linear-gradient(90.12deg, rgba(234, 240, 240, 0.3) 0%, rgba(234, 240, 240, 0.2) 100%);
+    opacity: 0.9;
+}
+
+/* Logo */
+#logo {
+    opacity: 0.9;
+}
+
+/* Menu Items trong header */
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+#menu-item {
+    opacity: 0.6;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    background-color: #283841;
+    border: none;
+}
+
+#menu-item:hover, #menu-item:active {
+    font-weight: 600;
+    background-color: #223A60;
+    opacity: 0.9;
+}
+
+/* Dòng văn bản chính */
+#main-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: #223A60;
+    opacity: 0.9;
+}
